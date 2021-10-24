@@ -35,6 +35,11 @@ export const StyledImg = styled.img<StyledImgProps>`
   max-width: 100%;
 `;
 
+export const ImgContainer = styled.div`
+  text-align: center;
+  overflow: auto;
+`;
+
 export const StyledList = styled.ul`
   max-width: 70%;
   li {

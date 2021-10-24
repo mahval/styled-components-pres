@@ -1,12 +1,12 @@
 import React from 'react';
 import historyBEM from '../img/BEM.png';
-import { Style, StyledImg, StyledList } from '../styled-components';
+import { ImgContainer, Style, StyledImg, StyledList } from '../styled-components';
 
 export const HistoryBEM = () => (
   <Style>
-    <div>
+    <ImgContainer>
       <StyledImg widthPerc={80} src={historyBEM} />
-    </div>
+    </ImgContainer>
     <StyledList>
       {points.map((point) => (
         <li key={point}>{point}</li>
@@ -16,6 +16,6 @@ export const HistoryBEM = () => (
 );
 
 const points: string[] = [
-  'BEM (Block, Element, Modifier): Naming conventions',
-  'When strictly followed, BEM works really well, but why is something as fundamental as scoping left up to pure convention?',
+  'BEM (Block, Element, Modifier): Navnekonvensjoner',
+  'BEM fungerer veldig bra når det blir fulgt til punkt og prikke, men scoping burde ikke fungere bare fordi vi bruker konvensjoner',
 ];

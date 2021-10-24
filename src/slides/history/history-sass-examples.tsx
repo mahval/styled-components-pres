@@ -1,11 +1,13 @@
 import React from 'react';
 import SASSExamples from '../img/sass-examples.png';
-import { Style, StyledImg, StyledList, StyledNumberedList } from '../styled-components';
+import { ImgContainer, Style, StyledImg, StyledList, StyledNumberedList } from '../styled-components';
 
 export const HistorySASSExamples = () => (
   <Style>
     <h1>SASS/SCSS</h1>
-    <StyledImg widthPerc={50} src={SASSExamples} />
+    <ImgContainer>
+      <StyledImg widthPerc={50} src={SASSExamples} />
+    </ImgContainer>
     <div>
       <StyledList>
         <li>{firstPoint}</li>

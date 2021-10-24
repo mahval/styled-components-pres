@@ -66,6 +66,12 @@ export const Summary = () => (
             styled-components handle the rest.
           </li>
         </Step>
+        <Step>
+          <li>
+            Code is more often <strong>read</strong> than it is <strong>written</strong>, as such, we need to make our
+            code as <strong>readable</strong> and <strong>understandable</strong> as possible
+          </li>
+        </Step>
       </ul>
     </Points>
   </Style>

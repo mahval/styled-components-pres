@@ -1,12 +1,12 @@
 import React from 'react';
 import historyCSSModules from '../img/css-modules.png';
-import { Style, StyledImg, StyledList } from '../styled-components';
+import { ImgContainer, Style, StyledImg, StyledList } from '../styled-components';
 
 export const HistoryCSSModules = () => (
   <Style>
-    <div>
+    <ImgContainer>
       <StyledImg widthPerc={80} src={historyCSSModules} alt="CSS history" />
-    </div>
+    </ImgContainer>
     <StyledList>
       {points.map((point) => (
         <li key={point}>{point}</li>
@@ -16,6 +16,6 @@ export const HistoryCSSModules = () => (
 );
 
 const points: string[] = [
-  'CSS Modules (CSS i JS) er en CSS-fil (alle .css-filer kan være en CSS Module) og bruker feks Webpack til å kompilere til CSS',
-  'CSS modules solve this in part by namespacing the style, but the main problem is that they make the code much less readable. (eksempel 3)',
+  // 'CSS Modules har en vanlig CSS-fil og bruker f. eks. Webpack til å kompilere til ny CSS',
+  'CSS Modules løser problemet med unique namespacing, men et nytt problem vi får er at koden er mye mindre lesbar',
 ];
