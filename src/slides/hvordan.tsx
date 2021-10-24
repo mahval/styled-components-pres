@@ -1,6 +1,6 @@
 import React from 'react';
-import { Code } from '../components/Code';
 import { Step } from '../components/Slide/Step';
+import { Code } from '../components/code';
 import { Style } from './styled-components';
 
 export const Hvordan = () => (

@@ -7,13 +7,11 @@ export const HistoryCSSModules = () => (
     <div>
       <StyledImg widthPerc={80} src={historyCSSModules} alt="CSS history" />
     </div>
-    <div>
-      <StyledList>
-        {points.map((point) => (
-          <li key={point}>{point}</li>
-        ))}
-      </StyledList>
-    </div>
+    <StyledList>
+      {points.map((point) => (
+        <li key={point}>{point}</li>
+      ))}
+    </StyledList>
   </Style>
 );
 

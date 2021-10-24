@@ -27,7 +27,7 @@ const SlideSingleStyle = styled.div<{
   animation: ${(props) =>
       // props.current ? randomFadeIn(props.seed1) : randomFadeOut(props.seed2)}
       props.current ? randomFadeIn() : randomFadeOut()}
-    0.5s both;
+    0.35s both;
   animation-delay: ${(props) => (props.current ? '.2s' : '0')};
 `;
 

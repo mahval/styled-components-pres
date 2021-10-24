@@ -7,13 +7,11 @@ export const HistoryBEM = () => (
     <div>
       <StyledImg widthPerc={80} src={historyBEM} />
     </div>
-    <div>
-      <StyledList>
-        {points.map((point) => (
-          <li key={point}>{point}</li>
-        ))}
-      </StyledList>
-    </div>
+    <StyledList>
+      {points.map((point) => (
+        <li key={point}>{point}</li>
+      ))}
+    </StyledList>
   </Style>
 );
 

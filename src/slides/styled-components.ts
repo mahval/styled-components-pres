@@ -36,7 +36,7 @@ export const StyledImg = styled.img<StyledImgProps>`
 `;
 
 export const StyledList = styled.ul`
-  max-width: 95%;
+  max-width: 70%;
   li {
     margin-bottom: 0.5rem;
   }
