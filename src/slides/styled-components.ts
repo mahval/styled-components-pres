@@ -12,7 +12,7 @@ export const Style = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 18x;
+  font-size: 1em;
 `;
 
 export const ContentContainer = styled.div`

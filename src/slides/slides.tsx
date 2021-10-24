@@ -1,4 +1,7 @@
 import React, { ReactNode } from 'react';
+import { ExampleProps } from './examples/example-props';
+import { ExampleStyling } from './examples/example-styling';
+import { ExampleTheme } from './examples/example-theme';
 import { HistoryBEM } from './history/history-bem';
 import { HistoryCSS } from './history/history-css';
 import { HistoryCSSModules } from './history/history-css-modules';
@@ -11,6 +14,8 @@ import { HistorySASSExamples } from './history/history-sass-examples';
 import { HistoryTailwind } from './history/history-tailwind';
 import { Hvordan } from './hvordan';
 import { Hvorfor } from './hvorfor';
+import { Summary } from './summary';
+import { Thanks } from './thanks';
 import { Velkommen } from './velkommen';
 
 const HISTORY_SLIDES = [
@@ -26,6 +31,14 @@ const HISTORY_SLIDES = [
   <HistoryStyledComponents key={7} />,
 ];
 
-const SLIDES = [<Hvordan key={10} />, <Hvorfor key={11} />];
+const SLIDES = [
+  <Hvordan key={10} />,
+  <Hvorfor key={11} />,
+  <ExampleStyling key={12} />,
+  <ExampleProps key={13} />,
+  <ExampleTheme key={14} />,
+  <Summary key={15} />,
+  <Thanks key={16} />,
+];
 
 export const FINAL_SLIDES: ReactNode[] = [<Velkommen key={0} />, ...HISTORY_SLIDES, ...SLIDES];
