@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components/macro';
-import { ExternalLink } from '../components/ExternalLink';
-import { Step } from '../components/Slide/Step';
+import { ExternalLink } from '../components/externalLink';
+import { Step } from '../components/slide/step';
 import { Style } from './styled-components';
 
 const OverflødigStyling = styled.span`

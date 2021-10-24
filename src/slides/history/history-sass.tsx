@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink } from '../../components/ExternalLink';
+import { ExternalLink } from '../../components/externalLink';
 import historySASS from '../img/SASS.png';
 import { ImgContainer, Style, StyledImg, StyledList } from '../styled-components';
 

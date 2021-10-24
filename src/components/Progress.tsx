@@ -21,7 +21,7 @@ export const Progress = ({ value, max }: Props) => (
   <ProgressContainer>
     {value} / {max}
     <ProgressBarContainer>
-      <Background />
+      <ProgressBarBackground />
       <ProgressBar percent={(value / max) * 100} />
     </ProgressBarContainer>
   </ProgressContainer>
@@ -43,7 +43,7 @@ const BaseProgressBar = styled.div`
   width: 300px;
 `;
 
-const Background = styled(BaseProgressBar)`
+const ProgressBarBackground = styled(BaseProgressBar)`
   background: grey;
   width: 100%;
 `;

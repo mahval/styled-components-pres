@@ -2,7 +2,7 @@ import * as React from 'react';
 import { ReactNode, useContext, useState } from 'react';
 import { useMount, useUnmount } from 'react-use';
 import styled, { css } from 'styled-components/macro';
-import { StepContext } from './StepContext';
+import { StepContext } from './stepContext';
 
 interface Props {
   children: ReactNode;

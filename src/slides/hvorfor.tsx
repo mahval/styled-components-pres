@@ -1,6 +1,6 @@
 import React from 'react';
-import { ExternalLink } from '../components/ExternalLink';
-import { Step } from '../components/Slide/Step';
+import { ExternalLink } from '../components/externalLink';
+import { Step } from '../components/slide/step';
 import stateOfCSS from './img/stateofcss-1.png';
 import { ContentContainer, Style, StyledImg } from './styled-components';
 

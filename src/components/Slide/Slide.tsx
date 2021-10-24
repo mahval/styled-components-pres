@@ -2,11 +2,11 @@ import * as React from 'react';
 import { ReactNode, useCallback, useEffect, useRef, useState } from 'react';
 import styled from 'styled-components/macro';
 import { style } from '../../utils/style';
-import { NavKnapper } from '../NavKnapper';
-import { NavigationContext } from './NavigationContext';
-import { StepContext } from './StepContext';
+import { NavKnapper } from '../navKnapper';
 import { randomFadeIn } from './fadeIns';
 import { randomFadeOut } from './fadeOuts';
+import { NavigationContext } from './navigationContext';
+import { StepContext } from './stepContext';
 
 const SlideSingleStyle = styled.div<{
   current: boolean;

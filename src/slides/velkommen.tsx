@@ -1,6 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components/macro';
-import { ExternalLink } from '../components/ExternalLink';
+import { ExternalLink } from '../components/externalLink';
 import logo from './img/logo.png';
 
 const Style = styled.div`
