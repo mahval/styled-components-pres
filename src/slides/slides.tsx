@@ -11,7 +11,7 @@ import { HistoryStyledComponents } from './history/history-css-styled-components
 import { HistoryOfCSS } from './history/history-of-css';
 import { HistorySASS } from './history/history-sass';
 import { HistorySASSExamples } from './history/history-sass-examples';
-import { HistoryTailwind } from './history/history-tailwind';
+// import { HistoryTailwind } from './history/history-tailwind';
 import { Hvordan } from './hvordan';
 import { Hvorfor } from './hvorfor';
 import { Summary } from './summary';
@@ -24,9 +24,9 @@ const HISTORY_SLIDES = [
   <HistorySASSExamples key={3} />,
   <HistorySASS key={3} />,
   <HistoryBEM key={4} />,
-  <HistoryTailwind key={5} />,
-  <HistoryCSSModulesExplained key={6} />,
+  // <HistoryTailwind key={5} />,
   <HistoryCSSModules key={7} />,
+  <HistoryCSSModulesExplained key={6} />,
   <HistoryCSSModulesExample key={8} />,
   <HistoryStyledComponents key={9} />,
 ];

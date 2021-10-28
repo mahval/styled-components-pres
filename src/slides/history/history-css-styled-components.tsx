@@ -5,7 +5,7 @@ import { ImgContainer, Style, StyledImg, StyledList } from '../styled-components
 export const HistoryStyledComponents = () => (
   <Style>
     <ImgContainer>
-      <StyledImg widthPerc={80} src={historyStyledComponents} alt="CSS history" />
+      <StyledImg widthPerc={70} src={historyStyledComponents} alt="CSS history" />
     </ImgContainer>
     <StyledList>
       {points.map((point) => (
