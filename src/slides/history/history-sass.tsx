@@ -13,9 +13,8 @@ export const HistorySASS = () => (
         <li key={point}>{point}</li>
       ))}
     </StyledList>
-    <ExternalLink href="https://www.sassmeister.com/gist/2553619b04f6fb8aa27d0d9aafceae84?token=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&scope=gist,read:user">
-      https://www.sassmeister.com/
-    </ExternalLink>
+    {/* <ExternalLink href="https://www.sassmeister.com/gist/2553619b04f6fb8aa27d0d9aafceae84?token=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&scope=gist,read:user"> */}
+    <ExternalLink href="https://www.sassmeister.com/">https://www.sassmeister.com/</ExternalLink>
   </Style>
 );
 

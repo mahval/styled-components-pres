@@ -6,15 +6,13 @@ import { ContentContainer, Rows, StyledImg } from '../styled-components';
 
 export const HistoryCSSModulesExample = () => (
   <Rows>
-    <ContentContainer>
-      <Step>
-        <StyledImg widthPerc={90} src={exampleCssModules} />
-      </Step>
-    </ContentContainer>
-    <ContentContainer>
-      <Step>
-        <StyledImg widthPerc={90} src={exampleStyledComponents} />
-      </Step>
-    </ContentContainer>
+    <Step>
+      <StyledImg widthPerc={100} src={exampleCssModules} />
+    </Step>
+    <Step>
+      <ContentContainer>
+        <StyledImg widthPerc={100} src={exampleStyledComponents} />
+      </ContentContainer>
+    </Step>
   </Rows>
 );

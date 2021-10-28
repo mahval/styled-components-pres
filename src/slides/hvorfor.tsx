@@ -11,8 +11,8 @@ export const Hvorfor = () => (
     </Step>
     <Step>
       <h3>State of CSS</h3>
-      <ExternalLink href="https://2019.stateofcss.com/technologies/css-in-js/">
-        https://2019.stateofcss.com/technologies/css-in-js/
+      <ExternalLink href="https://2020.stateofcss.com/technologies/css-in-js/">
+        https://2020.stateofcss.com/technologies/css-in-js/
       </ExternalLink>
     </Step>
     <Step>

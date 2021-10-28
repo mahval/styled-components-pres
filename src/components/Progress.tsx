@@ -17,15 +17,19 @@ const ProgressContainer = styled.div`
   transform: translateX(-50%);
 `;
 
-export const Progress = ({ value, max }: Props) => (
-  <ProgressContainer>
-    {value} / {max}
-    <ProgressBarContainer>
-      <ProgressBarBackground />
-      <ProgressBar percent={(value / max) * 100} />
-    </ProgressBarContainer>
-  </ProgressContainer>
-);
+export const Progress = ({ value, max }: Props) => {
+  const progressPercentage = (value / max) * 100;
+
+  return (
+    <ProgressContainer>
+      {value} / {max}
+      <ProgressBarContainer>
+        <BaseProgressBar />
+        <ProgressBar progressPercentage={progressPercentage} />
+      </ProgressBarContainer>
+    </ProgressContainer>
+  );
+};
 
 const ProgressBarContainer = styled.div`
   height: 20px;
@@ -40,19 +44,15 @@ const BaseProgressBar = styled.div`
   top: 0;
   border-radius: 3px;
   transition: width 0.2s ease-in-out;
-  width: 300px;
-`;
-
-const ProgressBarBackground = styled(BaseProgressBar)`
   background: grey;
   width: 100%;
 `;
 
 interface ProgressBarProps {
-  percent: number;
+  progressPercentage: number;
 }
 
 const ProgressBar = styled(BaseProgressBar)<ProgressBarProps>`
-  background: ${style.color.primary};
-  width: ${(props) => `${props.percent}%`};
+  background-color: ${style.color.primary};
+  width: ${(props) => `${props.progressPercentage}%`};
 `;

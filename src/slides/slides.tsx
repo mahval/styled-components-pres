@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import { ExampleProps } from './examples/example-props';
+// import { ExampleProps } from './examples/example-props';
 import { ExampleStyling } from './examples/example-styling';
 import { ExampleTheme } from './examples/example-theme';
 import { HistoryBEM } from './history/history-bem';
@@ -24,18 +24,18 @@ const HISTORY_SLIDES = [
   <HistorySASSExamples key={3} />,
   <HistorySASS key={3} />,
   <HistoryBEM key={4} />,
-  <HistoryTailwind key={4} />,
-  <HistoryCSSModulesExplained key={5} />,
-  <HistoryCSSModules key={5} />,
-  <HistoryCSSModulesExample key={6} />,
-  <HistoryStyledComponents key={7} />,
+  <HistoryTailwind key={5} />,
+  <HistoryCSSModulesExplained key={6} />,
+  <HistoryCSSModules key={7} />,
+  <HistoryCSSModulesExample key={8} />,
+  <HistoryStyledComponents key={9} />,
 ];
 
 const SLIDES = [
   <Hvordan key={10} />,
   <Hvorfor key={11} />,
   <ExampleStyling key={12} />,
-  <ExampleProps key={13} />,
+  // <ExampleProps key={13} />,
   <ExampleTheme key={14} />,
   <Summary key={15} />,
   <Thanks key={16} />,
